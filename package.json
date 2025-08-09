@@ -1,0 +1,27 @@
+{
+  "description": "wa-his-session",
+  "main": "./rav.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "pm2 start rav.js --deep-monitoring --attach --name rav",
+    "stop": "pm2 stop rav",
+    "restart": "pm2 restart rav"
+  },
+  "author": "hhhisoka-rav",
+  "license": "GPL-3.0 license",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.7",
+    "awesome-phonenumber": "^2.64.0",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.1",
+    "megajs": "^1.1.0",
+    "path": "^0.12.7",
+    "phone": "3.1.30",
+    "pino": "^8.1.0",
+    "pm2": "^5.2.0",
+    "qrcode": "^1.5.3"
+  }
+}
