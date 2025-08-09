@@ -1,0 +1,22 @@
+{
+    "name": "Wa-his-session",
+    "description": "wa-his-session Generator",
+    "logo": "image url",
+    "repository": "https://github.com/hhhisoka/Wa-his-session",
+    "keywords": ["hhhisoka-rav"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "Just Leave This Blank",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
