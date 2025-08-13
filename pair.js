@@ -105,7 +105,7 @@ router.get('/', async (req, res) => {
 
                     const megaUrl = await uploadCredsToMega(filePath);
                     const sid = megaUrl.includes("https://mega.nz/file/")
-                        ? 'DENKI~MD~ ' + megaUrl.split("https://mega.nz/file/")[1]
+                           ? 'DENKI~MD~'+ megaUrl.split("https://mega.nz/file/")[1]
                         : 'Error: Invalid URL';
 
                     console.log(`Session ID: ${sid}`);
@@ -114,10 +114,10 @@ router.get('/', async (req, res) => {
 
                     const rav_TEXT = `
 
-⚡𝐃𝐄𝐍𝐊𝐈 𝐌𝐃 𝗦𝗘𝗦𝗦𝗜𝗢𝗡
- 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬⚡ 
+   ⚡𝐃𝐄𝐍𝐊𝐈 𝐌𝐃 𝗦𝗘𝗦𝗦𝗜𝗢𝗡
+ 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬⚡
 
-╔════『 𝗩𝗜𝗦𝗜𝗧 𝗙𝗢𝗥 𝗛𝗘𝗟𝗣 』═════❒
+╔═══『 𝗩𝗜𝗦𝗜𝗧 𝗙𝗢𝗥 𝗛𝗘𝗟𝗣 』═══❒
 ║❒ 👨‍💻𝗢𝗪𝗡𝗘𝗥 : https://wa.me/2250143875869
 ║❒📁 𝗥𝗘𝗣𝗢 : https://github.com/denki-arch/DENKI-MD
 ║❒ 📡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗖𝗛𝗔𝗡𝗡𝗘𝗟  :
