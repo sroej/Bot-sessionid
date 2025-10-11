@@ -122,7 +122,7 @@ router.get('/', async (req, res) => {
 ║❒📁 𝗥𝗘𝗣𝗢 : https://github.com/Yoann-official1/YOANN-XMD
 ║❒ 📡 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 : https://whatsapp.com/channel/0029VbB06qE9sBIFlu00Dq0R 
 ║❒👥 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 : 
-https://chat.whatsapp.com/G6NnBdm9ZnvBCqy0OHi4It?mode=ac_t
+https://chat.whatsapp.com/KUhcRsvJIYE6outjzlj4FA?mode=ems_copy_t
 ╚══════════════════════❒  
 `;
 
